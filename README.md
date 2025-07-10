@@ -1,4 +1,8 @@
-# README
+# Vanilla RNN for recognizing palindrome numbers
+
+Palindrome numbers are numbers that read the same forwards and backwards. For example: 121, 1331, 12321, 44444, 98789, ...
+
+Generate training examples with [gen_Palindrome.py](gen_Palindrome.py).
 
 ## 1. Training Log
 
