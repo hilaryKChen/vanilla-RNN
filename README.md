@@ -4,7 +4,21 @@ Palindrome numbers are numbers that read the same forwards and backwards. For ex
 
 Generate training examples with [gen_Palindrome.py](gen_Palindrome.py).
 
-## 1. Training Log
+## 1. Instructions
+
+To train, run `python train.py <number of training examples>`.
+
+To run tests on the 3 models:
+
+1. **Place your test set 'test.txt' under the project root** directory
+
+2. **Run at project root directory:**
+   - `python test.py 200 test.txt`
+   - `python test.py 2000 test.txt`
+   - `python test.py 20000 test.txt`
+3. Test results and <u>accuracy will be printed</u>, and full results will be saved to file 'predictions_<numberofexamples>.txt' at root directory.
+
+## 2. Training Log
 
 ### Hyperparameters
 
@@ -27,7 +41,7 @@ Generate training examples with [gen_Palindrome.py](gen_Palindrome.py).
 
    <img src="./images/examples_20000.png" alt="examples_20000" style="zoom:80%;" />
 
-## 2. Test Results
+## 3. Test Results
 
 Tested on 100 randomly generated examples (See 'testing_data_100.txt').
 
@@ -49,16 +63,3 @@ Tested on 100 randomly generated examples (See 'testing_data_100.txt').
 
    See full results at [predictions/predictions_20000.txt](predictions/predictions_20000.txt)
 
-## 3. Instructions
-
-To train, run `python train.py <number of training examples>`.
-
-To run tests on the 3 models:
-
-1. **Place your test set 'test.txt' under the project root** directory
-
-2. **Run at project root directory:**
-   - `python test.py 200 test.txt`
-   - `python test.py 2000 test.txt`
-   - `python test.py 20000 test.txt`
-3. Test results and <u>accuracy will be printed</u>, and full results will be saved to file 'predictions_<numberofexamples>.txt' at root directory.
