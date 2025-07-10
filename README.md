@@ -57,8 +57,8 @@ To run tests on the 3 models:
 
 1. **Place your test set 'test.txt' under the project root** directory
 
-2. **Run command at project root directory:**
-   - **python test.py 200 test.txt**
-   - **python test.py 2000 test.txt**
-   - **python test.py 20000 test.txt**
+2. **Run at project root directory:**
+   - `python test.py 200 test.txt`
+   - `python test.py 2000 test.txt`
+   - `python test.py 20000 test.txt`
 3. Test results and <u>accuracy will be printed</u>, and full results will be saved to file 'predictions_<numberofexamples>.txt' at root directory.
