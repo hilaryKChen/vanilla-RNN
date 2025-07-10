@@ -2,7 +2,9 @@
 
 Palindrome numbers are numbers that read the same forwards and backwards. For example: 121, 1331, 12321, 44444, 98789, ...
 
-Generate training examples with [gen_Palindrome.py](gen_Palindrome.py).
+This project trains vanilla RNNs with 200, 2000, and 20000 training examples and evaluate models on a test set.
+
+Generate random training examples with [gen_Palindrome.py](gen_Palindrome.py).
 
 ## 1. Instructions
 
