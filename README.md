@@ -51,6 +51,8 @@ Tested on 100 randomly generated examples (See 'testing_data_100.txt').
 
 ## 3. Instructions
 
+To train, run `python train.py <number of training examples>`.
+
 To run tests on the 3 models:
 
 1. **Place your test set 'test.txt' under the project root** directory
